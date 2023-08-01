@@ -1,0 +1,24 @@
+{
+  "name": "pyramid",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "3d plot",
+  "dependencies": {
+    "papaparse": "^5.4.1",
+    "three": "^0.154.0"
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "parcel-bundler": "^1.12.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
